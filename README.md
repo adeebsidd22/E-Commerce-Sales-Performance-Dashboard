@@ -70,6 +70,18 @@ The dataset is used for **learning and portfolio demonstration purposes**.
 
 ![Dashboard Preview](E_commerce_dashboard.png)
 
+## 📐 Key DAX Metrics
+
+```DAX
+Total Revenue = SUMX(order_items, order_items[quantity] * RELATED(products[selling_price]))
+
+Total Profit = [Total Revenue] - 
+    SUMX(order_items, order_items[quantity] * RELATED(products[cost_price]))
+
+AOV (Avg Order Value) = DIVIDE([Total Revenue], [Total Orders])
+
+Revenue Running Total = 
+CALCULATE([Total Revenue], FILTER(ALL(Dates[Date]), Dates[Date] <= MAX(Dates[Date])))
 ---
 
 ## 🔍 Business Insights
