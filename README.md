@@ -68,6 +68,6 @@ The dataset is used for **learning and portfolio demonstration purposes**.
 
 > Main Overview Dashboard
 
-![Dashboard Preview](dashboard.png)
+![Dashboard Preview](E_commerce_dashboard.png)
 
 
