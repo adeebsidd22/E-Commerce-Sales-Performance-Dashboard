@@ -70,4 +70,40 @@ The dataset is used for **learning and portfolio demonstration purposes**.
 
 ![Dashboard Preview](E_commerce_dashboard.png)
 
+---
+
+## 🔍 Business Insights
+
+- Certain **regions contribute significantly higher revenue** than others.
+- Categories such as **Beauty, Clothing, and Sports** perform strongly.
+- **Revenue trend analysis** highlights consistent month-over-month growth.
+- **AOV remains stable**, indicating reliable customer spending behavior.
+
+---
+
+## 🚀 How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open it in **Power BI Desktop**.
+3. Use the **slicers** to filter by:
+   - Date Range  
+   - Region  
+   - Product Category  
+4. Hover over charts to view details and interpretations.
+
+---
+
+## 👤 Author
+
+**Mohammed Adeeb Siddiqui**  
+_Data Analytics | SQL | Power BI | Python_
+
+- GitHub: **https://github.com/adeebsidd22**
+- LinkedIn: **https://www.linkedin.com/in/mohammed-adeeb-siddiqui-88776b33b/**
+- Email: **mohadeebsid@gmail.com**
+
+---
+
+### ⭐ If you found this project useful, please **star the repository** to support my work!
+
 
