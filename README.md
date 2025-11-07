@@ -83,7 +83,7 @@ AOV (Avg Order Value) = DIVIDE([Total Revenue], [Total Orders])
 Revenue Running Total = 
 CALCULATE([Total Revenue], FILTER(ALL(Dates[Date]), Dates[Date] <= MAX(Dates[Date])))
 ---
-
+```
 ## 🔍 Business Insights
 
 - Certain **regions contribute significantly higher revenue** than others.
